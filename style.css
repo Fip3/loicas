@@ -225,12 +225,6 @@ a.to-top {
 	margin-top: 5px;
 }
 
-.gallery-thb {
-	background-color: rgba(255,255,255,1);
-	padding: 10px;
-	margin: 10px;
-}
-
 @media (min-width: 768px) {
 
 	.container {
@@ -283,6 +277,12 @@ a.to-top {
 		max-width: 314px;
 	}
 
+	.gallery-thb {
+		background-color: rgba(255,255,255,1);
+		padding: 10px;
+		margin: 10px;
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -307,6 +307,16 @@ a.to-top {
 	.top-logo {
 		max-width: 200px;
 		max-height: 150px;
+	}
+
+	.gallery-thb {
+		background-color: rgba(255,255,255,1);
+		padding: 5px;
+		margin: 0;
+	}
+
+	.gallery-thb-sqr {
+		margin-bottom: 10px;
 	}
 }
 
