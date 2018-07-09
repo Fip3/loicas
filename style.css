@@ -280,6 +280,7 @@ a.to-top {
 
 	.img-team {
 		max-height: 35vh;
+		max-width: 314px;
 	}
 
 }
