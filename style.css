@@ -7,7 +7,7 @@ body {
 	-webkit-background-attachment: fixed;
 	-moz-background-attachment: fixed;
 
-	background-width: 100% auto;
+	background-size: 100% auto;
 
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -223,6 +223,11 @@ a.to-top {
 }
 .gallery-title {
 	margin-top: 5px;
+}
+
+.gallery-title a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.9);
 }
 
 @media (min-width: 768px) {
