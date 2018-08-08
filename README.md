@@ -1,2 +1,2 @@
 # loicas
-Sitio oficial de Las Licas Cricket Chile
+Sitio oficial de Las Loicas Cricket Chile
