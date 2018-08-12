@@ -230,6 +230,10 @@ a.to-top {
 	color: rgba(0,0,0,0.9);
 }
 
+#contadorDias {
+	font-size: 3vh;
+}
+
 @media (min-width: 768px) {
 
 	.container {
