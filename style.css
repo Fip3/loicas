@@ -230,7 +230,8 @@ a.to-top {
 	color: rgba(0,0,0,0.9);
 }
 
-#contadorDias {
+#contadorDias,
+#vicecampeonas {
 	font-size: 3vh;
 }
 
