@@ -20,7 +20,6 @@ function counter(anhoAContar, mesAContar, diaAContar, horaAContar, minutosAConta
   */
   var fechaAContar = new Date(Date.UTC(anhoAContar, mesAContar, diaAContar, horaAContar, minutosAContar, segundosAContar));
   var diferencia = fechaAContar - ahora;
-  console.log("diferencia " + diferencia);  
 
   var d = diferencia /1000 /60 /60 /24;
   var dias = Math.floor(d);
@@ -44,7 +43,7 @@ function counter(anhoAContar, mesAContar, diaAContar, horaAContar, minutosAConta
     }
   } else if (horas >= 1) {
     if (ahora.getMinutes() > minutosAContar){
-      return ("Quedan " + (horas+1) + " horas y " + minutos + " minutos");
+      return ("Quedan " + (horas) + " horas y " + minutos + " minutos");
     } else {
       return ("Quedan " + (horas) + " horas y " + minutos + " minutos")
     }
@@ -58,6 +57,6 @@ function counter(anhoAContar, mesAContar, diaAContar, horaAContar, minutosAConta
 
 function iniciar() {
   var elem = document.getElementById("contadorDias");
-  elem.innerHTML = counter(2018, 7, 23, 13, 30, 0);
-  setInterval(function(){elem.innerHTML = counter(2018, 7, 23, 13, 30, 0)}, 1000);
+  elem.innerHTML = counter(2019, 9, 3, 13, 0, 0);
+  setInterval(function(){elem.innerHTML = counter(2019, 9, 3, 13, 0, 0)}, 1000);
 }
